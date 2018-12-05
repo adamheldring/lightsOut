@@ -1,0 +1,37 @@
+body {
+  background: lightgrey;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.puzzle-container {
+  background: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 40px 20px;
+  &--solved {
+    background: #17d117;
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.boxTrue {
+  background: #272727;
+}
+
+.boxFalse {
+  background: #FFF;
+}
